@@ -87,6 +87,7 @@ fi
 
 #daemon com.apple.AirPlayXPCHelper ${action}
 #daemon com.apple.airplaydiagnostics.server.mac ${action}
+#daemon com.apple.mDNSResponder ${action}
 daemon com.apple.AssetCacheLocatorService ${action}
 daemon com.apple.CrashReporterSupportHelper ${action}
 daemon com.apple.GameController.gamecontrollerd ${action}
@@ -102,7 +103,6 @@ daemon com.apple.icloud.findmydeviced ${action}
 daemon com.apple.ifdreader ${action}
 daemon com.apple.locationd ${action}
 daemon com.apple.lockd ${action}
-daemon com.apple.mDNSResponder ${action}
 daemon com.apple.mDNSResponderHelper ${action}
 daemon com.apple.netbiosd ${action}
 daemon com.apple.spindump ${action}
